@@ -14,7 +14,7 @@
 </p>
 
 
-# Create and deploy a Node.js web microservice
+# Create and deploy a Node.js microservice
 
 > We have similar applications available for [Go](https://github.com/IBM/go-microservice), [Java Spring](https://github.com/IBM/spring-microservice),  [Python Flask](https://github.com/IBM/flask-microservice), and [Java Liberty](https://github.com/IBM/java-liberty-microservice).
 
