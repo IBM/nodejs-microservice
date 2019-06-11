@@ -63,7 +63,7 @@ npm run start
 
 Your application will be running at `http://localhost:3000`.  You can access the `/health` and `/appmetrics-dash` endpoints at the host.
 
-#### IBM Cloud Developer Tools
+<!--#### IBM Cloud Developer Tools
 
 Install [IBM Cloud Developer Tools](https://cloud.ibm.com/docs/cli/index.html#overview) on your machine by using the following installation command: `curl -sL https://ibm.biz/idt-installer | bash`.
 
@@ -86,7 +86,7 @@ You can build and debug your app locally with:
 ```bash
 ibmcloud dev build --debug
 ibmcloud dev debug
-```
+```-->
 
 ##### Session Store
 You may see this warning when running `bx dev run`:
