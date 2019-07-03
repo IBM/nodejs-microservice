@@ -18,7 +18,7 @@
 
 > We have similar applications available for [Go](https://github.com/IBM/go-microservice), [Java Spring](https://github.com/IBM/spring-microservice), [Python Flask](https://github.com/IBM/flask-microservice), and [Java Liberty](https://github.com/IBM/java-liberty-microservice).
 
-In this sample microservice, you will create a microservice using Express in Node.js, complete with standard best practices, including a health check and application metric monitoring.  A microservice is an individual component of an application that follows the **microservice architecture** - an architectural style that structures an application as a collection of loosely coupled services, which implement business capabilities. The microservice exposes a RESTful API matching a [Swagger](http://swagger.io) definition.
+In this sample microservice, you will create a microservice using Express in Node.js, complete with standard best practices, including a health check and application metric monitoring. A microservice is an individual component of an application that follows the **microservice architecture** - an architectural style that structures an application as a collection of loosely coupled services, which implement business capabilities. The microservice exposes a RESTful API matching a [Swagger](http://swagger.io) definition.
 
 You can access the cloud native microservice capabilities at the following endpoints:
 - The [Swagger UI](http://swagger.io/swagger-ui/) is running on: `/explorer`
@@ -64,7 +64,10 @@ Your application will be running at `http://localhost:3000`.  You can access the
 
 <!--#### IBM Cloud Developer Tools
 
-Install [IBM Cloud Developer Tools](https://cloud.ibm.com/docs/cli?topic=cloud-cli-getting-started) on your machine by using the following installation command: `curl -sL https://ibm.biz/idt-installer | bash`.
+Install [IBM Cloud Developer Tools](https://cloud.ibm.com/docs/cli?topic=cloud-cli-getting-started) on your machine by running the following command:
+```
+curl -sL https://ibm.biz/idt-installer | bash
+```
 
 Your application will be compiled with Docker containers. To compile and run your app, run:
 
@@ -88,7 +91,7 @@ ibmcloud dev debug
 ```-->
 
 ##### Session Store
-You may see this warning when running `bx dev run`:
+You may see this warning when running `ibmcloud dev run`:
 ```
 Warning: connect.session() MemoryStore is not
 designed for a production environment, as it will leak
