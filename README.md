@@ -1,6 +1,6 @@
 <p align="center">
     <a href="http://kitura.io/">
-        <img src="https://landscape.cncf.io/logos/ibm-cloud.svg" height="100" alt="IBM Cloud">
+        <img src="https://landscape.cncf.io/logos/ibm-cloud-kcsp.svg" height="100" alt="IBM Cloud">
     </a>
 </p>
 
