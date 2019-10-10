@@ -24,7 +24,6 @@ You can access the cloud native microservice capabilities at the following endpo
 - The [Swagger UI](http://swagger.io/swagger-ui/) is running on: `/explorer`
 - The Swagger definition is running on: `/swagger/api`
 - Health endpoint: `/health`
-- Application Metrics: `/appmetrics-dash`
 
 ## Steps
 
@@ -60,7 +59,7 @@ To run your application locally:
 npm run start
 ```
 
-Your application will be running at `http://localhost:3000`.  You can access the `/health` and `/appmetrics-dash` endpoints at the host.
+Your application will be running at `http://localhost:3000`.  You can access the `/health` endpoint at the host.
 
 #### IBM Cloud Developer Tools
 
