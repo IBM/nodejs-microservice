@@ -21,7 +21,8 @@ describe('Testing Server', function() {
 
   before(done => {
     let app = require(process.cwd() + '/server/server');
-    test_server = app;
+    app.close()
+    test_server = app.listen(process.env.PORT || 3000, done);
   });
 
   it('Public endpoint returns "Hello!"', function(done){
