@@ -18,10 +18,10 @@ require('./routers/index')(app, server);
 // Add your code here
 
 const port = process.env.PORT || localConfig.port;
-/*server.listen(port, function(){
+server.listen(port, function(){
   logger.info(`OpenAPI (Swagger) spec is available at http://localhost:${port}/swagger/api`);
   logger.info(`Swagger UI is available at http://localhost:${port}/explorer`);
-});*/
+});
 
 app.use(function (req, res, next) {
   res.sendFile(path.join(__dirname, '../public', '404.html'));
