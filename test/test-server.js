@@ -21,6 +21,7 @@ describe('Testing Server', function() {
 
   before(done => {
     let app = require(process.cwd() + '/server/server');
+    app.close()
     test_server = app.listen(process.env.PORT || 3000, done);
   });
 
